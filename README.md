@@ -2,6 +2,18 @@
 
 > POC for PrintSpeak for Company GPT, using Clearbit and OpenAI.
 
+## Useful Links
+
+- [Experiments](./docs/EXPERIMENTS.md)
+- [OpenAI](https://openai.com/)
+- [Clearbit](https://clearbit.com/)
+- [Clearbit Enrichment API](https://clearbit.com/docs#enrichment-api)
+- [Clearbit Prospector API](https://clearbit.com/docs#prospector-api)
+- [Clearbit OpenAI](https://clearbit.com/docs#openai)
+- [Clearbit OpenAI API](https://clearbit.com/docs#openai-api)
+- [Clearbit OpenAI API Docs](https://clearbit.com/docs#openai-api-docs)
+
+
 ## Installation
 
 Add this line to your application's Gemfile:
