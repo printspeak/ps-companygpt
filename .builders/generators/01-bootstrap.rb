@@ -35,7 +35,7 @@ KManager.action :bootstrap do
         # run_command('git init')
       end
       .blueprint(
-        active: true,
+        active: false,
         name: :bin_hook,
         description: 'initialize repository',
         on_exist: :write) do
@@ -72,7 +72,7 @@ KManager.action :bootstrap do
         run_command("git add .; git commit -m 'chore: #{self.options.description.downcase}'; git push")
       end
       .blueprint(
-        active: false,
+        active: true,
         name: :opinionated,
         description: 'opinionated GEM files',
         on_exist: :write) do
