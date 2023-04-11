@@ -12,7 +12,7 @@
 - [Clearbit OpenAI](https://clearbit.com/docs#openai)
 - [Clearbit OpenAI API](https://clearbit.com/docs#openai-api)
 - [Clearbit OpenAI API Docs](https://clearbit.com/docs#openai-api-docs)
-
+- [Products and Services](https://docs.google.com/spreadsheets/d/19sC_StefqnFuk0yXhkKkgHCbVjMXb_WM-27m-h2XmpU/edit)
 
 ## Installation
 
