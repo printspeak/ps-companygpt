@@ -1,0 +1,69 @@
+[
+  {
+    "title": "Sales and Contact Information",
+    "data_sheets": ["Sheet 1", "Sheet 2", "Sheet 3"],
+    "fields": [
+      { "name": "name", "title": "Name", "type": "string", "description": "Name of the client or company" },
+      { "name": "street1", "title": "Street1", "type": "string", "description": "Primary street address" },
+      { "name": "street2", "title": "Street2", "type": "string", "description": "Secondary street address" },
+      { "name": "street3", "title": "Street3", "type": "string", "description": "Tertiary street address" },
+      { "name": "city", "title": "City", "type": "string", "description": "City of the client or company" },
+      { "name": "state", "title": "State", "type": "string", "description": "State of the client or company" },
+      { "name": "zip", "title": "Zip", "type": "string", "description": "Zip or postal code" },
+      { "name": "sales_rep", "title": "Sales Rep", "type": "string", "description": "Name of the sales representative" },
+      { "name": "sales_rep_ps", "title": "SalesRepPS", "type": "string", "description": "Sales representative initials" },
+      { "name": "last_order", "title": "Last Order", "type": "date", "description": "Date of the last order" },
+      { "name": "last_contact", "title": "Last Contact", "type": "date", "description": "Date of the last contact" },
+      { "name": "rolling_12_months_sales", "title": "Rolling 12 Months Sales", "type": "currency", "description": "Sales in the last 12 months" },
+      { "name": "rolling_12_months_sales_ly", "title": "Rolling 12 Months Sales LY", "type": "currency", "description": "Sales in the last 12 months LY" },
+      { "name": "balance", "title": "Balance", "type": "currency", "description": "Outstanding balance" },
+      { "name": "tags_included", "title": "Tags Included", "type": "string", "description": "Included tags" },
+      { "name": "tags_excluded", "title": "Tags Excluded", "type": "string", "description": "Excluded tags" }
+    ]
+  },
+  {
+    "title": "Rolling Sales and Shipment Comparison",
+    "data_sheets": ["Sheet 4"],
+    "fields": [
+      { "name": "name", "title": "Name", "type": "string", "description": "Name of the client or company" },
+      { "name": "street1", "title": "Street1", "type": "string", "description": "Primary street address" },
+      { "name": "street2", "title": "Street2", "type": "string", "description": "Secondary street address" },
+      { "name": "street3", "title": "Street3", "type": "string", "description": "Tertiary street address" },
+      { "name": "city", "title": "City", "type": "string", "description": "City of the client or company" },
+      { "name": "province", "title": "Province", "type": "string", "description": "Province of the client or company" },
+      { "name": "zip", "title": "Zip", "type": "string", "description": "Zip or postal code" },
+      { "name": "user", "title": "User", "type": "string", "description": "User assigned to the client" },
+      { "name": "user_ss", "title": "UserSS", "type": "string", "description": "User initials" },
+      { "name": "last_shipment", "title": "Last Shipment", "type": "date", "description": "Date of the last shipment" },
+      { "name": "last_contact", "title": "Last Contact", "type": "date", "description": "Date of the last contact" },
+      { "name": "rolling_12_months_sales", "title": "Rolling 12 Months Sales", "type": "currency", "description": "Sales from the past 12 months" },
+      { "name": "rolling_12_months_sales_ly", "title": "Rolling 12 Months Sales LY", "type": "currency", "description": "Sales from the past 12 months in the previous year" },
+      { "name": "sales_last_month", "title": "Sales Last Month", "type": "currency", "description": "Sales from the previous month" },
+      { "name": "sales_last_month_ly", "title": "Sales Last Month LY", "type": "currency", "description": "Sales from the previous month last year" },
+      { "name": "balance", "title": "Balance", "type": "currency", "description": "Outstanding balance" }
+    ]
+  },
+
+  {
+    "title": "Yearly Sales and Shipment Comparison",
+    "data_sheets": ["Sheet 5"],
+    "fields": [
+      { "name": "name", "title": "Name", "type": "string", "description": "Name of the client or company" },
+      { "name": "street1", "title": "Street1", "type": "string", "description": "Primary street address" },
+      { "name": "street2", "title": "Street2", "type": "string", "description": "Secondary street address" },
+      { "name": "street3", "title": "Street3", "type": "string", "description": "Tertiary street address" },
+      { "name": "city", "title": "City", "type": "string", "description": "City of the client or company" },
+      { "name": "province", "title": "Province", "type": "string", "description": "Province of the client or company" },
+      { "name": "zip", "title": "Zip", "type": "string", "description": "Zip or postal code" },
+      { "name": "user", "title": "User", "type": "string", "description": "User assigned to the client" },
+      { "name": "user_ss", "title": "UserSS", "type": "string", "description": "User initials" },
+      { "name": "last_shipment", "title": "Last Shipment", "type": "date", "description": "Date of the last shipment" },
+      { "name": "last_contact", "title": "Last Contact", "type": "date", "description": "Date of the last contact" },
+      { "name": "sales_ytd", "title": "Sales YTD", "type": "currency", "description": "Year-to-date sales" },
+      { "name": "sales_ly_ytd", "title": "Sales LY YTD", "type": "currency", "description": "Last year's year-to-date sales" },
+      { "name": "sales_last_month", "title": "Sales Last Month", "type": "currency", "description": "Sales from the previous month" },
+      { "name": "sales_last_month_ly", "title": "Sales Last Month LY", "type": "currency", "description": "Sales from the previous month last year" },
+      { "name": "balance", "title": "Balance", "type": "currency", "description": "Outstanding balance" }
+    ]
+  }
+]
