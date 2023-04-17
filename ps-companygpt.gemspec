@@ -39,7 +39,7 @@ Gem::Specification.new do |spec|
   spec.require_paths = ['lib']
   # spec.extensions    = ['ext/ps_companygpt/extconf.rb']
 
-  spec.add_dependency 'k_log', '~> 0'
+  spec.add_dependency 'clearbit', '~> 0.3.3'
   # spec.add_dependency 'k_type', '~> 0'
   # spec.add_dependency 'k_util', '~> 0'
 end

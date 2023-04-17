@@ -1,6 +1,8 @@
 # frozen_string_literal: true
 
 require 'ps/companygpt/version'
+require 'ps/companygpt/commands/company_reader'
+require 'ps/companygpt/commands/clearbit_enrichment'
 
 module Ps
   module Companygpt

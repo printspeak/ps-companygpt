@@ -9,3 +9,8 @@
 - Develop a plan for updating company data periodically using Clearbit or other data sources, including scheduling updates, updating local database tables, and setting update triggers based on rules.
 - Test and integrate the Clearbit Enrichment, Prospector, and Discovery APIs or their alternatives into your system.
 - Research alternative sources of data, such as LinkedIn, FullContact, Hunter, ZoomInfo, InsideView, Datanyze, or LeadIQ.
+
+
+Queries (Postman) Clearbit
+
+https://discovery.clearbit.com/v1/companies/search?query=tags:"Information Technology %26 Services" employees:50~1000 location:"north sydney"&limit=10&sort=alexa_asc&page_size=10&page=1
